@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>
             일기장
         </title>
@@ -11,9 +13,6 @@
         <link rel="stylesheet" href="styles/bootstrap.css">
         <link rel="stylesheet" href="./styles/style.css" type="text/css" media="screen" />
         <link rel="stylesheet" href="./dist/jquery.slotmachine.css" type="text/css" media="screen" />
-        
-        
-        
     </head>
 
     <body>
@@ -42,39 +41,39 @@
         <div id="wrapa">
               <div id="randomize">
                 <div class="container">
-                  
-          
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <div>
+
+
+                  <div class="row slot-wrapper">
+                    <div class="col-sm-4 slot-column">
+                      <div class="slot-inner">
                         <div id="machine1" class="randomizeMachine">
                           <div><img src="img/slot1.png" /></div>
                           <div><img src="img/slot2.png" /></div>
                           <div><img src="img/slot3.png" /></div>
                           <div><img src="img/slot4.png" /></div>
                           <div><img src="img/slot5.png" /></div>
-                          
+
                         </div>
                       </div>
-                      
+
                     </div>
-          
-                    <div class="col-sm-4">
-                      <div>
+
+                    <div class="col-sm-4 slot-column">
+                      <div class="slot-inner">
                         <div id="machine2" class="randomizeMachine">
                           <div><img src="img/slot1.png" /></div>
                           <div><img src="img/slot2.png" /></div>
                           <div><img src="img/slot3.png" /></div>
                           <div><img src="img/slot4.png" /></div>
                           <div><img src="img/slot5.png" /></div>
-                          
+
                         </div>
                       </div>
-                      
+
                     </div>
-          
-                    <div class="col-sm-4">
-                      <div>
+
+                    <div class="col-sm-4 slot-column">
+                      <div class="slot-inner">
                         <div id="machine3" class="randomizeMachine">
                           <div><img src="img/sub1.png" /></div>
                           <div><img src="img/sub2.png" /></div>
@@ -86,27 +85,27 @@
                       <div id="machine2Result" class="col-xs-4 machineResult" style="display: none;"></div>
                       <div id="machine3Result" class="col-xs-4 machineResult" style="display: none;"></div>
                     </div>
-                    
-                    
-                    
-                    
-                  </div>
-                  <div class="btn-group btn-group-justified" role="group">
 
-                      
-                    
+
+
+
+                  </div>
+                  <div class="btn-group btn-group-justified slot-controls" role="group">
+
+
+
 
                       <button id="randomizeButton" class="TTT" type="button" >Go</button>
 
-                      
-                      
-                  
+
+
+
                   </div>
-                  
+
                 </div>
-                
+
               </div>
-            
+
             </div>
               <audio id="myAudio" src="effect.wav"></audio>
               <audio id="myAudio1" src="rr.m4a"></audio>
